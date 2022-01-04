@@ -15,7 +15,7 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
 }
 
 header nav ul {
@@ -34,16 +34,6 @@ li {
   color: #363435;
   font-family: "Baumans", cursive;
   font-size: 1rem;
-}
-
-.logo img {
-  display: inline;
-  width: 3vw;
-  height: auto;
-}
-
-.logo {
-  text-align: center;
 }
 
 header,
@@ -66,7 +56,11 @@ footer {
   padding: 10px;
 }
 
-/* _____________________________________________________________________footer i mobil */
+.footer_wrapper {
+  gap: 100px;
+}
+
+/* _____________________________________________________________________footer web */
 @media (min-width: 800px) {
   footer a,
   p {
