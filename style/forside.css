@@ -1,26 +1,30 @@
 /* _______________________________________________mobile */
 #first_section {
-  background-image: url(baggrunde/forside.svg);
+  background-image: url(baggrunde/forside_mobil.svg);
   background-size: cover;
-  aspect-ratio: 8/9;
-  background-position: 80% 10%;
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
 }
 
-.col_1 {
-  display: flex;
-  justify-content: space-between;
+.col_2 {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(9, 1fr);
 }
 
-#col_2 {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
+.top {
+  grid-column: 3/4;
+  grid-row: 5;
+}
+
+.bottom {
+  grid-column: 7;
+  grid-row: 7;
 }
 
 /* ___________________________________________________web */
 @media (min-width: 700px) {
   #first_section {
+    background-image: url(baggrunde/forside_web.svg);
+    background-size: cover;
     aspect-ratio: 16/9;
   }
 }

@@ -15,7 +15,7 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px;
 }
 
 header nav ul {
@@ -36,6 +36,21 @@ li {
   font-size: 1rem;
 }
 
+.logo img {
+  display: inline;
+  width: 3vw;
+  height: auto;
+}
+
+.logo {
+  text-align: center;
+}
+
+header,
+footer {
+  border: 1px solid black;
+}
+
 /* _____________________________________________________________________footer */
 footer a,
 p {
@@ -48,13 +63,24 @@ footer {
   display: grid;
   place-content: center;
   line-height: 1.5rem;
-  padding: 30px;
+  padding: 10px;
 }
 
-@media (min-width: 700px) {
+/* _____________________________________________________________________footer i mobil */
+@media (min-width: 800px) {
   footer a,
   p {
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 0.8rem;
+    line-height: 4rem;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
   }
 }
