@@ -1,0 +1,26 @@
+/* _______________________________________________mobile */
+#first_section {
+  background-image: url(baggrunde/forside.svg);
+  background-size: cover;
+  aspect-ratio: 8/9;
+  background-position: 80% 10%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.col_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#col_2 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* ___________________________________________________web */
+@media (min-width: 700px) {
+  #first_section {
+    aspect-ratio: 16/9;
+  }
+}
