@@ -1,15 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="883" viewBox="0 0 1920 883">
   <defs>
     <clipPath id="clip-om_mig">
-      <rect width="1920" height="1080"/>
+      <rect width="1920" height="883"/>
     </clipPath>
   </defs>
   <g id="om_mig" clip-path="url(#clip-om_mig)">
-    <rect width="1920" height="1080" fill="#f1eddb"/>
-    <g id="Rectangle_24" data-name="Rectangle 24" transform="translate(0 1078)" fill="#f1eddb" stroke="#d6c4c4" stroke-width="3">
-      <rect width="1920" height="174" stroke="none"/>
-      <rect x="1.5" y="1.5" width="1917" height="171" fill="none"/>
-    </g>
+    <rect width="1920" height="883" fill="#f1eddb"/>
     <g id="Group_13" data-name="Group 13" transform="translate(-42 101)">
       <rect id="Rectangle_9" data-name="Rectangle 9" width="293" height="149" rx="74.5" transform="translate(1870 263) rotate(90)" fill="#ea4e4e"/>
       <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(1854 287) rotate(90)" fill="none" stroke="#395098" stroke-width="3">

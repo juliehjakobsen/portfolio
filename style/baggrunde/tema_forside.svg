@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="925" viewBox="0 0 1920 925">
   <defs>
     <clipPath id="clip-tema_forside">
-      <rect width="1920" height="1080"/>
+      <rect width="1920" height="925"/>
     </clipPath>
   </defs>
   <g id="tema_forside" clip-path="url(#clip-tema_forside)">
-    <rect width="1920" height="1080" fill="#f1eddb"/>
+    <rect width="1920" height="925" fill="#f1eddb"/>
     <line id="Line_2" data-name="Line 2" y2="1083.833" transform="translate(1702.317 -4.568)" fill="none" stroke="#000" stroke-width="1.5"/>
     <line id="Line_3" data-name="Line 3" y2="1083.833" transform="translate(1483.495 -4.568)" fill="none" stroke="#000" stroke-width="1.5"/>
     <path id="Path_5" data-name="Path 5" d="M0,0S26.9,342.592,348.173,213.348" transform="matrix(0.839, -0.545, 0.545, 0.839, 1702.319, 403.833)" fill="none" stroke="#000" stroke-width="1.5"/>
