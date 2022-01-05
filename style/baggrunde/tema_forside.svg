@@ -6,17 +6,15 @@
   </defs>
   <g id="tema_forside" clip-path="url(#clip-tema_forside)">
     <rect width="1920" height="1080" fill="#f1eddb"/>
-    <line id="Line_1" data-name="Line 1" y2="1083.833" transform="translate(1744.141 -4.568)" fill="none" stroke="#000" stroke-width="1.5"/>
-    <line id="Line_2" data-name="Line 2" y2="1083.833" transform="translate(1525.317 -4.568)" fill="none" stroke="#000" stroke-width="1.5"/>
-    <line id="Line_3" data-name="Line 3" y2="1083.833" transform="translate(1306.495 -4.568)" fill="none" stroke="#000" stroke-width="1.5"/>
-    <path id="Path_5" data-name="Path 5" d="M0,0S26.9,342.592,348.173,213.348" transform="matrix(0.839, -0.545, 0.545, 0.839, 1525.319, 403.833)" fill="none" stroke="#000" stroke-width="1.5"/>
-    <path id="Polygon_1" data-name="Polygon 1" d="M129.229,0,258.459,218.823H0Z" transform="translate(1744.141 668.072) rotate(90)" fill="#395098"/>
-    <path id="Polygon_2" data-name="Polygon 2" d="M110.146,0,220.291,189.01H0Z" transform="translate(1689.005 -100.133) rotate(60)" fill="#ff9f00"/>
-    <rect id="Rectangle_5" data-name="Rectangle 5" width="118" height="118" transform="translate(1307 66)" fill="#363435"/>
-    <path id="Union_3" data-name="Union 3" d="M400.929,278.222,0,0,400.929,278.222,0,561.008Z" transform="translate(1525.318 518.992)" fill="none" stroke="#000" stroke-width="1.5"/>
-    <path id="Union_4" data-name="Union 4" d="M0,415V89.987H.538C5.463,39.377,43.638,0,90,0s84.535,39.377,89.461,89.987H180V415Z" transform="translate(1925 411) rotate(180)" fill="#d6d8cd"/>
-    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="107.5" cy="106.5" rx="107.5" ry="106.5" transform="translate(1307 866)" fill="#ff9f00"/>
-    <g id="Group_1" data-name="Group 1" transform="translate(1322.65 348.633)">
+    <line id="Line_2" data-name="Line 2" y2="1083.833" transform="translate(1702.317 -4.568)" fill="none" stroke="#000" stroke-width="1.5"/>
+    <line id="Line_3" data-name="Line 3" y2="1083.833" transform="translate(1483.495 -4.568)" fill="none" stroke="#000" stroke-width="1.5"/>
+    <path id="Path_5" data-name="Path 5" d="M0,0S26.9,342.592,348.173,213.348" transform="matrix(0.839, -0.545, 0.545, 0.839, 1702.319, 403.833)" fill="none" stroke="#000" stroke-width="1.5"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M129.229,0,258.459,218.823H0Z" transform="translate(1921.141 668.072) rotate(90)" fill="#395098"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M110.146,0,220.291,189.01H0Z" transform="translate(1866.005 -100.133) rotate(60)" fill="#ff9f00"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="118" height="118" transform="translate(1484 66)" fill="#363435"/>
+    <path id="Union_3" data-name="Union 3" d="M400.929,278.222,0,0,400.929,278.222,0,561.008Z" transform="translate(1702.318 518.992)" fill="none" stroke="#000" stroke-width="1.5"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="107.5" cy="106.5" rx="107.5" ry="106.5" transform="translate(1484 866)" fill="#ff9f00"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(1499.65 348.633)">
       <line id="Line_6" data-name="Line 6" x2="30.629" transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
       <line id="Line_7" data-name="Line 7" x2="30.629" transform="translate(0 26.435)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
       <line id="Line_8" data-name="Line 8" x2="30.629" transform="translate(0 52.87)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>

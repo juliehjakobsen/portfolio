@@ -31,12 +31,3 @@ h3 {
   grid-column: 8;
   grid-row: 5;
 }
-
-/* ___________________________________________________web */
-/* @media (min-width: 700px) {
-  #first_section {
-    background-image: url(baggrunde/forside_web.svg);
-    background-size: cover;
-    aspect-ratio: 16/9;
-  }
-} */
