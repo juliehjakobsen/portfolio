@@ -23,7 +23,7 @@ p {
 header {
   position: sticky;
   padding: 0.5rem;
-  background-color: #f2d5d5;
+  background-color: #ebcda0;
 }
 
 header nav ul {
@@ -45,7 +45,7 @@ a,
 li {
   list-style: none;
   gap: 20px;
-  color: #363435;
+  color: black;
   font-family: "Baumans", cursive;
   font-size: 1rem;
   text-align: center;
@@ -97,7 +97,7 @@ a:hover {
 /* _____________________________________________________________________footer i mobil-version */
 footer a,
 footer p {
-  color: #363435;
+  color: black;
   font-family: "Baumans", cursive;
   font-size: 0.7rem;
 }
@@ -106,11 +106,11 @@ footer {
   display: grid;
   place-content: center;
   line-height: 2rem;
-  background-color: #f2d5d5;
+  background-color: #eccc9b;
 }
 
 .footer {
-  gap: 100px;
+  gap: 200px;
 }
 
 /* _____________________________________________________________________footer i web-version */
