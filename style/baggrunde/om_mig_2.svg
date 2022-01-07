@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="883" viewBox="0 0 1920 883">
+  <defs>
+    <clipPath id="clip-om_mig_2">
+      <rect width="1920" height="883"/>
+    </clipPath>
+  </defs>
+  <g id="om_mig_2" clip-path="url(#clip-om_mig_2)">
+    <rect width="1920" height="883" fill="#f1eddb"/>
+    <g id="Group_24" data-name="Group 24" transform="translate(-555 475.455)">
+      <ellipse id="Ellipse_178" data-name="Ellipse 178" cx="44" cy="44.5" rx="44" ry="44.5" transform="translate(726 298.545)" fill="#67586a" opacity="0.548"/>
+      <ellipse id="Ellipse_181" data-name="Ellipse 181" cx="44" cy="44.5" rx="44" ry="44.5" transform="translate(682 298.545)" fill="#ff6892" opacity="0.548"/>
+      <circle id="Ellipse_180" data-name="Ellipse 180" cx="44.5" cy="44.5" r="44.5" transform="translate(770 298.545)" fill="#00cae6" opacity="0.548"/>
+      <circle id="Ellipse_179" data-name="Ellipse 179" cx="44.5" cy="44.5" r="44.5" transform="translate(637 298.545)" fill="#fce57b" opacity="0.548"/>
+    </g>
+  </g>
+</svg>

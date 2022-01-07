@@ -14,31 +14,35 @@ img {
 h1,
 h2,
 h3,
+h4,
+h5,
 p {
   font-family: "Baumans", cursive;
 }
 
-/* ___________________________________________________________________header i web-version */
+/* ___________________________________________________________________header */
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 30px;
+}
 
 header {
-  position: sticky;
   padding: 0.5rem;
-  background-color: #ebcda0;
+  background-color: #f2d5d5;
 }
 
 header nav ul {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
   list-style: none;
 }
 
 .logo img {
   height: 3.4rem;
-  display: inline;
-}
-
-.logo {
-  text-align: center;
 }
 
 a,
@@ -64,34 +68,31 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 750px) {
-  .toggle-btn {
-    background: transparent;
-    border: none;
-    display: block;
-    min-width: 44px;
-    min-height: 44px;
-    font-size: 2rem;
-    cursor: pointer;
-  }
+.toggle-btn {
+  background: transparent;
+  border: none;
+  display: block;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 2rem;
+  cursor: pointer;
+}
 
-  nav {
-    display: none;
-  }
+nav {
+  display: none;
+}
 
-  nav.shown {
-    padding-top: 1rem;
-    display: flex;
-    flex-flow: column;
-  }
+nav.shown {
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  border-top: 2px solid black;
+}
 
-  nav ul {
-    display: flex;
-    flex-flow: wrap;
-  }
-  header nav ul {
-    gap: 10px;
-  }
+nav ul {
+  display: flex;
+  flex-flow: column;
 }
 
 /* _____________________________________________________________________footer i mobil-version */
@@ -106,7 +107,7 @@ footer {
   display: grid;
   place-content: center;
   line-height: 2rem;
-  background-color: #eccc9b;
+  background-color: #f2d5d5;
 }
 
 .footer {
