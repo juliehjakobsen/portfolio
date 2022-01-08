@@ -13,7 +13,7 @@
     <path id="Polygon_2" data-name="Polygon 2" d="M110.146,0,220.291,189.01H0Z" transform="translate(1866.005 -100.133) rotate(60)" fill="#ff9f00"/>
     <rect id="Rectangle_5" data-name="Rectangle 5" width="118" height="118" transform="translate(1484 66)" fill="#363435"/>
     <path id="Union_3" data-name="Union 3" d="M400.929,278.222,0,0,400.929,278.222,0,561.008Z" transform="translate(1702.318 518.992)" fill="none" stroke="#000" stroke-width="1.5"/>
-    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="107.5" cy="106.5" rx="107.5" ry="106.5" transform="translate(1484 866)" fill="#ff9f00"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="107.5" cy="106.5" rx="107.5" ry="106.5" transform="translate(1485 815)" fill="#ff9f00"/>
     <g id="Group_1" data-name="Group 1" transform="translate(1499.65 348.633)">
       <line id="Line_6" data-name="Line 6" x2="30.629" transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
       <line id="Line_7" data-name="Line 7" x2="30.629" transform="translate(0 26.435)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>

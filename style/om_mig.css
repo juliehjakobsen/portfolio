@@ -150,9 +150,4 @@ hr {
     top: 60rem;
     z-index: 1;
   }
-
-  .bobler {
-    grid-row: 6;
-    grid-column: 1;
-  }
 }
