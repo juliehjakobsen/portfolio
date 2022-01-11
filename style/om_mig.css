@@ -18,19 +18,19 @@ main {
 }
 
 body {
-  background-color: #f1eddb;
+  background-color: #faf8ed;
 }
 
 p {
   line-height: 40px;
 }
 
-#first_section h3 {
-  font-size: clamp(1rem, 6vw, 4rem);
+h1 {
+  font-size: clamp(1.5rem, 6vw, 4rem);
 }
 
-#second_section h3 {
-  font-size: clamp(1rem, 4vw, 3rem);
+h3 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
 }
 
 h4 {
@@ -107,9 +107,9 @@ hr {
 }
 
 .cv {
-  padding-top: 30px;
   grid-column: 1/13;
   grid-row: 6/11;
+  padding-top: 30px;
 }
 
 .cv h3 {
@@ -123,6 +123,8 @@ hr {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin: 75px;
   }
 
   .om_mig {
@@ -134,6 +136,7 @@ hr {
   .cv {
     grid-column: 3/5;
     grid-row: 1/10;
+    padding-top: 0px;
     padding-left: 50px;
   }
 
@@ -144,7 +147,7 @@ hr {
   .vl {
     border: 0;
     border-left: 1px solid black;
-    height: 40rem;
+    height: 42rem;
     position: absolute;
     left: 50%;
     top: 60rem;

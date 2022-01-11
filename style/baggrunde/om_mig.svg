@@ -5,14 +5,14 @@
     </clipPath>
   </defs>
   <g id="om_mig" clip-path="url(#clip-om_mig)">
-    <rect width="1920" height="883" fill="#f1eddb"/>
+    <rect width="1920" height="883" fill="#faf8ed"/>
     <g id="Group_13" data-name="Group 13" transform="translate(-42 101)">
-      <rect id="Rectangle_9" data-name="Rectangle 9" width="293" height="149" rx="74.5" transform="translate(1870 263) rotate(90)" fill="#ea4e4e"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="293" height="149" rx="74.5" transform="translate(1870 263) rotate(90)" fill="#ff6892"/>
       <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(1854 287) rotate(90)" fill="none" stroke="#395098" stroke-width="3">
         <rect width="293" height="149" rx="74.5" stroke="none"/>
         <rect x="1.5" y="1.5" width="290" height="146" rx="73" fill="none"/>
       </g>
     </g>
-    <rect id="Rectangle_30" data-name="Rectangle 30" width="452" height="600" transform="translate(132 125.909)" fill="#395098"/>
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="452" height="600" transform="translate(132 125.909)" fill="#fbb800"/>
   </g>
 </svg>

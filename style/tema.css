@@ -1,53 +1,158 @@
-/* _____________________________FIRST SECTION_______________________________ */
-/* ________________________________________________________mobile */
-#first_section {
+body {
   background-image: url(baggrunde/tema_forside.svg);
+  background-repeat: repeat;
   background-size: cover;
-  background-position: 80% 100%;
+  background-position: 70% 100%;
   margin: 0 auto;
   width: 100%;
   height: 100vh;
+  border: none;
 
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr; */
+}
+
+img {
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+main {
+  padding-bottom: 30px;
+}
+/* ________________________________________________________FIRST SECTION_______________________________ */
+/* ________________________________________________________mobile */
+#first_section {
   display: grid;
-  grid-template-rows: repeat(12, 1fr);
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(9, 1fr);
 }
 
 h3 {
+  padding-bottom: 20px;
+
   font-size: clamp(0.5rem, 6vw, 3.5rem);
 
-  padding-top: 30px;
+  padding-top: 10px;
 
   text-align: center;
 
   grid-column: 2/8;
   grid-row: 1;
+
+  padding-right: 30px;
 }
 
-.foto {
+.col_0 {
   grid-column: 2/8;
-  grid-row: 2/4;
+  grid-row: 2;
+
+  line-height: 1.7rem;
+}
+
+/* ___________________________________________________________web */
+@media (min-width: 900px) {
+  p {
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+
+  #first_section {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  h3 {
+    grid-column: 2/8;
+  }
+
+  .col_0 {
+    grid-column: 2/8;
+  }
+}
+/* _________________________________________________________SECOND SECTION_______________________________ */
+/* ________________________________________________________mobile */
+#second_section {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .col_1 {
-  grid-row: 4;
-  grid-column: 2/9;
+  grid-row: 1;
+  grid-column: 2/8;
+
+  padding-top: 50px;
+  line-height: 1.7rem;
 }
 
 .col_2 {
-  grid-row: 8;
-  grid-column: 2/9;
-}
-/* _______________________________SECOND SECTION___________________________ */
-#second_section {
-  background-image: url(baggrunde/tema_forside.svg);
-  background-size: cover;
-  background-position: 80% 100%;
-  margin: 0 auto;
-  width: 100%;
-  height: 100vh;
+  grid-row: 2;
+  grid-column: 2/8;
 
-  /* display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(12, 1fr); */
+  padding-top: 30px;
+  line-height: 1.7rem;
+}
+
+.col_3 {
+  grid-row: 3;
+  grid-column: 2/8;
+
+  padding-top: 60px;
+  line-height: 1.7rem;
+}
+
+/* ___________________________________________________________web */
+@media (min-width: 900px) {
+  p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  #second_section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .col_1 {
+    grid-row: 1;
+    grid-column: 2/10;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .col_1 img {
+    grid-column: 1/2;
+  }
+
+  .col_2 {
+    grid-row: 2;
+    grid-column: 2/10;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .col_2 img {
+    grid-column: 1/2;
+  }
+
+  .col_3 {
+    grid-row: 3;
+    grid-column: 2/10;
+
+    padding-top: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .col_3 img {
+    grid-column: 1/2;
+  }
 }

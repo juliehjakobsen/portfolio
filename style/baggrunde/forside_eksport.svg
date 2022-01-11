@@ -5,8 +5,8 @@
     </clipPath>
   </defs>
   <g id="forside_eksport" clip-path="url(#clip-forside_eksport)">
-    <rect width="1920" height="941" fill="#f1eddb"/>
-    <path id="Polygon_3" data-name="Polygon 3" d="M319.859,0,639.719,535.727H0Z" transform="translate(1656.574 61.313) rotate(31)" fill="#f2d5d5"/>
+    <rect width="1920" height="941" fill="#faf8ed"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M319.859,0,639.719,535.727H0Z" transform="translate(1656.574 61.313) rotate(31)" fill="#ea4e4e"/>
     <g id="Group_5" data-name="Group 5" transform="translate(582.292 1882.717) rotate(-60)">
       <g id="Group_3" data-name="Group 3" transform="translate(703.5 1739.573) rotate(-90)">
         <line id="Line_215" data-name="Line 215" x1="51" y2="57" transform="translate(1268.5 772.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2.5"/>
@@ -19,7 +19,6 @@
         <line id="Line_217-2" data-name="Line 217" x1="51" y2="57" transform="translate(1384.5 772.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2.5"/>
       </g>
     </g>
-    <path id="Union_5" data-name="Union 5" d="M-6424-2357v-52h935.536c31.235.136,56.465,11.724,56.465,26s-25.23,25.864-56.465,26H-6424Z" transform="translate(6424.001 3223)" fill="#395098"/>
     <g id="Group_11" data-name="Group 11" transform="translate(0 -103)">
       <circle id="Ellipse_6" data-name="Ellipse 6" cx="7" cy="7" r="7" transform="translate(273 238)" fill="#363435"/>
       <circle id="Ellipse_95" data-name="Ellipse 95" cx="7" cy="7" r="7" transform="translate(273 367)" fill="#363435"/>
@@ -118,5 +117,6 @@
       <circle id="Ellipse_139" data-name="Ellipse 139" cx="7" cy="7" r="7" transform="translate(593 453)" fill="#363435"/>
       <circle id="Ellipse_166" data-name="Ellipse 166" cx="7" cy="7" r="7" transform="translate(593 539)" fill="#363435"/>
     </g>
+    <rect id="Rectangle_64" data-name="Rectangle 64" width="1303" height="26" transform="translate(0 789)" fill="#0069be" opacity="0.806"/>
   </g>
 </svg>
