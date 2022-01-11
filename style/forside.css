@@ -31,6 +31,27 @@ h3 {
   grid-column: 7;
   grid-row: 8;
 }
+
+.bottom {
+  animation-name: bottom_kf;
+  animation-duration: 1.3s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes bottom_kf {
+  0% {
+    letter-spacing: -1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* _____________________________________________web-version */
 @media (min-width: 900px) {
   .col_1 {

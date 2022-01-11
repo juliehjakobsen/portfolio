@@ -46,13 +46,12 @@ header {
   padding-top: 10px;
 }
 
-a,
-li {
+li,
+a {
   list-style: none;
-  color: black;
   font-family: "Baumans", cursive;
   font-size: 1.3rem;
-  text-align: center;
+  color: black;
 }
 
 li {
@@ -60,7 +59,7 @@ li {
 }
 
 a:hover {
-  color: #395098;
+  color: #0069be;
 }
 
 /* ________________________________________________________________header i mobil-version/burger menu */

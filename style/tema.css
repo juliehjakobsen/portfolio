@@ -7,10 +7,6 @@ body {
   width: 100%;
   height: 100vh;
   border: none;
-
-  /* display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr; */
 }
 
 img {
@@ -18,11 +14,23 @@ img {
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 main {
   padding-bottom: 30px;
+}
+
+link {
+  color: black;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+main a {
+  font-size: 1rem;
 }
 /* ________________________________________________________FIRST SECTION_______________________________ */
 /* ________________________________________________________mobile */
@@ -31,7 +39,7 @@ main {
   grid-template-columns: repeat(9, 1fr);
 }
 
-h3 {
+h1 {
   padding-bottom: 20px;
 
   font-size: clamp(0.5rem, 6vw, 3.5rem);
@@ -57,7 +65,7 @@ h3 {
 @media (min-width: 900px) {
   p {
     font-size: 0.8rem;
-    line-height: 2rem;
+    line-height: 1.7rem;
   }
 
   #first_section {
@@ -101,7 +109,7 @@ h3 {
   grid-row: 3;
   grid-column: 2/8;
 
-  padding-top: 60px;
+  /* padding-top: 60px; */
   line-height: 1.7rem;
 }
 
@@ -109,7 +117,7 @@ h3 {
 @media (min-width: 900px) {
   p {
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.7rem;
   }
 
   #second_section {
@@ -154,5 +162,21 @@ h3 {
 
   .col_3 img {
     grid-column: 1/2;
+  }
+
+  .web_website img,
+  .web_styletile img {
+    width: 90%;
+  }
+
+  .ux_moodboard img,
+  .ux_prototype img,
+  .animation_bent_tegning img,
+  .animation_diagrammer img,
+  .animationer_bent img,
+  .indhold_kristian img,
+  .indhold_trello img,
+  .indhold_benjamin img {
+    width: 92%;
   }
 }
